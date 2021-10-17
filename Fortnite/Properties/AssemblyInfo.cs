@@ -7,7 +7,7 @@ using System.Runtime.Versioning;
 
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyTitle("Fortnite Anti-Cheat Disabler")]
-[assembly: AssemblyDescription("Creado Por Lucting")]
+[assembly: AssemblyDescription("Creado Por HugoFastt")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Fortnite")]
