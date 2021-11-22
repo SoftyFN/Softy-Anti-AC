@@ -41,6 +41,14 @@ namespace AntiAC
 			ProcessHelper.InjectDll(process.Id, Path.Combine(Directory.GetCurrentDirectory(), "SoftyFN.dll"));
 			Process.Start("https://discord.io/SoftyFN");
 			Console.Read();
+			
+			process.WaitForExit();
+			var Proc = new ProcessStartInfo();
+			Proc.CreateNoWindow = true;
+			Proc.FileName = "cmd.exe";
+			Proc.Arguments = "/C start com.epicgames.launcher://apps/Fortnite?action=verify";
+			Process.Start(Proc);
+
 		}
 	}
 }
